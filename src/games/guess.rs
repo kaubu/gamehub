@@ -21,5 +21,5 @@ pub fn run() {
 		.get();
 
 	let mut rng = rand::thread_rng();
-	println!("rng: {}", rng.gen_range(min..max));
+	println!("rng: {}", rng.gen_range(min..(max+1)));
 }
