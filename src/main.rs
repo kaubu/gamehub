@@ -7,7 +7,7 @@ use version::Version;
 use read_input::prelude::*;
 
 // Constants
-const VERSION: Version = Version::new(0, 1, 0);
+const VERSION: Version = Version::new(0, 1, 1);
 
 // Structs
 struct Game {
