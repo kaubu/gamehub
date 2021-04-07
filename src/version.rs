@@ -12,7 +12,7 @@ impl Version {
 			patch: pat,
 		}
 	}
-	pub fn display(&self) -> String {
+	pub fn format(&self) -> String {
 		format!("{}.{}.{}", self.major, self.minor, self.patch)
 	}
 }
